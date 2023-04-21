@@ -167,6 +167,9 @@ header .port {
 }
 
 @media (max-width:600px) {
+     .home{
+        flex-direction: column;
+    }
     .homecontent {
         width: 100%;
         padding: 0 6vw;
