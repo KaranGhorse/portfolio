@@ -707,92 +707,10 @@ header .port {
     color: var(--maincolor);
     padding: 6px 8px;
     background-color: var(--bg-color);
-    border-radius: 50%;
+    border-radius: 12px;
     font-weight: 900;
     font-size: 20px;
 }
 
 
 
-/* footer items */
-
-/* 
-@media (max-width:600px) {
-
-    /* #menu-icon{
-        display: block;
-    }
-
-    .navbar{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 1rem 3%;
-        background-color: var(--bg-color);
-            border-top: .1rem solid rgba(0,0,0,.2);
-            box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
-        display: none;
-    } */
-/*
-    .navbar.active{
-        display: block;
-
-    }
-    .navbar a{
-        display: block;
-        font-size:2rem ;
-        margin: 3rem 0;
-    }
-    section{
-        padding: 0;
-    }
-
-    .home{
-        flex-direction: column;
-        padding-top: 13vh;
-    }
-    .homecontent {
-        width: 100%;
-    }
-    .homecontent h3{
-        font-size: 1.6rem;
-    }
-    .homecontent h1{
-        font-size: 1.6rem;
-    }
-    .homecontent p{
-        font-size: .8rem;
-    }
-
-    /* .home-content h1{
-        font-size: 5rem;
-    } */
-
-    /*.home-logo img{
-        width:50vw;
-        margin: 3rem;
-    }
-
-    .about{
-        flex-direction: column-reverse;
-
-    }
-
-    .about-img img{
-        width: 70vw;
-        margin-top: 2rem;
-    }
-
-    .services h2{
-        margin-bottom: 3rem;
-    }
-
-    .portfolio h2{
-        /* margin-bottom: 3rem; 
-    }
-    
-    .project-content{
-        grid-template-columns: repeat(1,1fr);
-    }
-} */
