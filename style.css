@@ -384,34 +384,7 @@ header .port {
     /* height: 60vh; */
 
 }
-@media (max-width:600px) {
-    section{
-        margin: 0;
-        padding: 0;
-    }
-    .service-container{
-    
-        display: grid;
-        /* grid-template-columns: ; */
-        /* background-color: #fff; */
-        width: 100%;
-        gap: 1.6rem;
-        margin: 1.6rem 0;
-    }
-    .service{
-        width: 90%;
-        /* transform: scale(.8); */
-    }
-    .service{
-        padding: 1rem;
-        /* margin-left: 0rem; */
-        
-    }
-    .service p{
-        font-weight: 500;
-        font-size: .8rem;
-    }
-}
+
 .service h3{
     color: var(--sbg-color);
     font-size: 1.7rem;
@@ -459,7 +432,34 @@ header .port {
     background-color: var(--maincolor);
 
 }
-
+@media (max-width:600px) {
+    section{
+        margin: 0;
+        padding: 0;
+    }
+    .service-container{
+    
+        display: grid;
+        /* grid-template-columns: ; */
+        /* background-color: #fff; */
+        width: 100%;
+        gap: 1.6rem;
+        margin: 1.6rem 0;
+    }
+    .service{
+        width: 90%;
+        /* transform: scale(.8); */
+    }
+    .service{
+        padding: 1rem;
+        /* margin-left: 0rem; */
+        
+    }
+    .service p{
+        font-weight: 500;
+        font-size: .8rem;
+    }
+}
 
 .projects{
     background-color: var(--sbg-color);
