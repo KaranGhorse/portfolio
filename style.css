@@ -396,7 +396,6 @@ header .port {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-left: 2rem;
     opacity: 0.56;
     border-radius: 12px;
     color: var(--text-color);
@@ -433,33 +432,43 @@ header .port {
 
 }
 @media (max-width:600px) {
-    section{
+    section {
         margin: 0;
         padding: 0;
     }
-    .service-container{
-    
-        display: grid;
-        /* grid-template-columns: ; */
-        /* background-color: #fff; */
+    .services h2{
+        padding-top: 5vh;
+    }
+    .services{
+        position: relative;
+    }
+    .service-container {
+
+        background-color: #fff;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         width: 100%;
         gap: 1.6rem;
         margin: 1.6rem 0;
     }
-    .service{
+
+    .service {
         width: 90%;
-        /* transform: scale(.8); */
     }
-    .service{
+
+    .service {
         padding: 1rem;
-        /* margin-left: 0rem; */
-        
+
     }
-    .service p{
+
+    .service p {
         font-weight: 500;
         font-size: .8rem;
     }
 }
+
 
 .projects{
     background-color: var(--sbg-color);
