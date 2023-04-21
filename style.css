@@ -443,9 +443,6 @@ header .port {
         position: relative;
     }
     .service-container {
-
-        background-color: #fff;
-
         display: flex;
         align-items: center;
         flex-direction: column;
