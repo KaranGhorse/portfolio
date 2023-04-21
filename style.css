@@ -472,6 +472,7 @@ header .port {
     background-color: var(--sbg-color);
 }
 .projects h2{
+    padding-top: 5vh;
     font-size: 3rem;
     color: var(--bg-color);
     border-bottom: 4px solid var(--text-color);
