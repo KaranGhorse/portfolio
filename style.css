@@ -19,15 +19,18 @@ html,body{
     --bg-color: #cbe4de;   
 }
 section{
-    min-height: 100vh;
-    max-width: 100%;
+    height: 100vh;
+    width: 100%;
     padding: 3rem 6rem;
     /* padding: 0 3rem; */
 
 }
-::-webkit-scrollbar{
-    display: none;
+@media (max-width:600px) {
+    section{
+        padding: 0 2vw;
+    }
 }
+
 header a{
     font-size: 1.2rem;
     color: var(--maincolor);
@@ -140,18 +143,20 @@ header .port{
 }
 @media (max-width:600px) {
     .homecontent{
-        width: 80%;
+        width: 100%;
+        padding: 0 6vw;
         margin-top: 10vh;
+        position: relative;
         /* background-color: red; */
     }
     .homecontent h1{
-        font-size: 2.4rem;
+        font-size: 1.7rem;
     }
     .homecontent h3{
-        font-size: 2.4rem;
+        font-size: 1.7rem;
     }
     .homecontent p{
-        font-size: 1rem;
+        font-size: .9rem;
     }
     .home-logo{
         max-width: 15rem;
@@ -167,8 +172,14 @@ header .port{
     }
     .icons{
         /* background-color: #fff; */
-        width: 60vw;
-
+        width: 100%;
+        margin-bottom: 8vh;
+    }
+    .home-btn{
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%,-50%);
     }
     .home-btn a{
         padding: .5rem 1.5rem;
