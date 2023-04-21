@@ -488,7 +488,7 @@ header .port {
     
 }@media (max-width:600px) {
     #project {
-        height: 95rem;
+        height: 98rem;
         margin: 0;
     }
     .project-cantiner {
@@ -714,7 +714,7 @@ header .port {
 
 @media (max-width:600px) {
     .footer{
-        padding: 12vw;
+        padding: 6vw;
     }
 }
 
