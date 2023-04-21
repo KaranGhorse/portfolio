@@ -25,14 +25,9 @@ section{
     /* padding: 0 3rem; */
 
 }
-@media (max-width:600px) {
-    section{
-        height: 100vh;
-        width: 100%;
-        padding: 0;
-    }
+::-webkit-scrollbar{
+    display: none;
 }
-
 header a{
     font-size: 1.2rem;
     color: var(--maincolor);
@@ -150,10 +145,10 @@ header .port{
         /* background-color: red; */
     }
     .homecontent h1{
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
     .homecontent h3{
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
     .homecontent p{
         font-size: 1rem;
@@ -172,7 +167,7 @@ header .port{
     }
     .icons{
         /* background-color: #fff; */
-        width: 90vw;
+        width: 60vw;
 
     }
     .home-btn a{
@@ -225,13 +220,13 @@ header .port{
 @media (max-width:600px) {
     section{
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         height: 100vh;
     }
     
     #project{
         height: 92rem;
-        margin: 0 0;
+        margin: 0;
     }
 }
 @media (max-width:600px) {
@@ -241,7 +236,6 @@ header .port{
     }
     .about-content p{
         font-size: .8rem;
-        width: 100%;
     }
     .about-me{
         width: 100%;
@@ -255,7 +249,7 @@ header .port{
     .about-img img{
         /* border-radius: 50%; */
         margin-top: 5vh;
-        width: 8rem;
+        width: 10rem;
     }
     .about-content{
         padding: 0;
@@ -341,7 +335,7 @@ header .port{
         margin: 1.6rem 0;
     }
     .service{
-        width: 100%;
+        width: 90%;
         /* transform: scale(.8); */
     }
     .service{
@@ -618,11 +612,7 @@ header .port{
 }
 
 /* footer items */
-@media (max-width:600px) {
-    .footer{
-        padding: 0 1rem;
-    }
-}
+
 .footer{
     width: 100%;
     height: 6vh;
