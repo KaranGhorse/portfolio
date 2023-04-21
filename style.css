@@ -218,7 +218,7 @@ header .port{
 @media (max-width:600px) {
     section{
         flex-direction: column;
-        width: 100%;
+        width: 90%;
         height: 100vh;
     }
     
