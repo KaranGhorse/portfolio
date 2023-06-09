@@ -483,7 +483,7 @@ header .port {
     height: 70vh;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-top: 7rem;
+    margin-top: 4rem;
     gap: 2rem;
     
 }@media (max-width:600px) {
@@ -517,7 +517,7 @@ header .port {
     overflow: hidden;
     /* border: 2px solid red; */
     border-radius: 8px;
-    height: 12rem;
+    height: 15rem;
     /* background-image: url(Capture.PNG); */
 }
 .project-content img{
